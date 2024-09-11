@@ -1,12 +1,12 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #8e8e8f;
-    --botao-azul: #169df7;
-    --cor-de-fundo: #1e4599;
+    --botao-azul: #0b3f14;
+    --cor-de-fundo: #087720;
 }
 
 body {
-    background-color: var(#1e4599);
+    background-color: var(#000000);
     color: var(#FFFFFF);
 }
 
@@ -16,9 +16,19 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Design\ sem\ nome.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container {
     height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
